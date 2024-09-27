@@ -3,7 +3,6 @@ package main
 import (
 	"bufio"
 	"fmt"
-
 	"os"
 	"strconv"
 	"strings"
@@ -27,7 +26,7 @@ func main() {
 	if !contains {
 		fmt.Println("Substring does not exist")
 	} else {
-		fmt.Printf("Substring exists")
+		fmt.Printf("Substring exists\n")
 	}
 
 	// calling factorial for 12 ,
@@ -45,13 +44,4 @@ func main() {
 	//calculathe squareroot of a number
 	calculateSquareRoot()
 
-}
-
-// Function to check if a string contains a substring
-func containsString(str string) bool {
-	var substr string
-
-	fmt.Print("Enter a substring:")
-	fmt.Scanf("%s", &substr)
-	return strings.Contains(str, substr)
 }

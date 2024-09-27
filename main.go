@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Welcome to Group A's Week 4 Project!")
+	fmt.Println("Welcome to Group E's Week 4 Project!")
 
 	// Create a reader for user input
 	reader := bufio.NewReader(os.Stdin)

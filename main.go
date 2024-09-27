@@ -37,6 +37,9 @@ func main() {
 	// checking if first string entered is  palindrome
 	result := isPalindrome(input)
 	fmt.Printf("The given string is a palindrome is a %t statement\n", result)
+
+	// Converting roman numerals to decimals
+	romanToInt("VII")
 }
 
 // Function to check if a string contains a substring

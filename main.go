@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -27,6 +28,15 @@ func main() {
 	} else {
 		fmt.Printf("Substring exists")
 	}
+
+	// calling factorial for 12 ,
+
+	string_num := strconv.Itoa(factorial(12))
+	fmt.Println("The factorial of 12 is " + string_num)
+
+	// checking if first string entered is  palindrome
+	result := isPalindrome(input)
+	fmt.Printf("The given string is a palindrome is a %t statement\n", result)
 }
 
 // Function to check if a string contains a substring

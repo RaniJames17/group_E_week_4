@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
+
 	"os"
 	"strconv"
 	"strings"
@@ -40,6 +41,10 @@ func main() {
 
 	// Converting roman numerals to decimals
 	romanToInt("VII")
+
+	//calculathe squareroot of a number
+	calculateSquareRoot()
+
 }
 
 // Function to check if a string contains a substring
